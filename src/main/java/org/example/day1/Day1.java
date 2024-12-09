@@ -9,11 +9,11 @@ import java.util.*;
 import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
-public class Day1_1 {
+public class Day1 {
 
     public static void main(String[] args) {
         try {
-            Path path = Paths.get(Objects.requireNonNull(Day1_1.class
+            Path path = Paths.get(Objects.requireNonNull(Day1.class
                                                                  .getClassLoader()
                                                                  .getResource("day1/input"))
                                           .toURI());
